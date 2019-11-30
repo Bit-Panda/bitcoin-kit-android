@@ -25,6 +25,7 @@ android {
     packagingOptions {
         pickFirst("META-INF/atomicfu.kotlin_module")
     }
+    buildToolsVersion = '28.0.3'
 }
 
 dependencies {

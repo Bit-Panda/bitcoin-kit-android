@@ -67,7 +67,7 @@ class BitcoinKit : AbstractKit {
 
         network = when (networkType) {
             NetworkType.MainNet -> {
-                initialSyncUrl = "https://btc.horizontalsystems.xyz/apg"
+                initialSyncUrl = "https://btcv.horizontalsystems.xyz/apg"
                 MainNet()
             }
             NetworkType.TestNet -> {
